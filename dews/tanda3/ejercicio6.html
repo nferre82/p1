@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+            table{
+                margin-left:auto; 
+                margin-right:auto;
+            }
+            caption{
+                font-weight: bold;
+            }
+    </style>
+    <title>Ejercicio6</title>
+    <script>
+        let numeros=["imgs/0.jpg","imgs/1.jpg","imgs/2.jpg","imgs/3.jpg","imgs/4.jpg","imgs/5.jpg","imgs/6.jpg","imgs/7.jpg","imgs/8.jpg","imgs/9.jpg"];
+        function changeDate(){
+            var fecha=new Date();
+            var anyo=fecha.getFullYear();
+            var dig_anyo1=parseInt(anyo/1000);
+            var dig_anyo2=parseInt(anyo/100%10);
+            var dig_anyo3=parseInt(anyo/100/10);
+            var dig_anyo4=parseInt(anyo%10);
+            document.getElementById("celda7").src=numeros[dig_anyo1];
+            document.getElementById("celda8").src=numeros[dig_anyo2];
+            document.getElementById("celda9").src=numeros[dig_anyo3];
+            document.getElementById("celda10").src=numeros[dig_anyo4];
+
+            var mes=fecha.getMonth()+1;
+            var dig_mes1=parseInt(mes/10);
+            var dig_mes2=parseInt(mes%10);
+            document.getElementById("celda4").src=numeros[dig_mes1];
+            document.getElementById("celda5").src=numeros[dig_mes2];
+
+            var dia=fecha.getDate();
+            var dig_dia1=parseInt(dia/10);
+            var dig_dia2=parseInt(dia%10);
+            document.getElementById("celda1").src=numeros[dig_dia1];
+            document.getElementById("celda2").src=numeros[dig_dia2];
+
+            var hora=fecha.getHours();
+            var dig_hora1=parseInt(hora/10);
+            var dig_hora2=parseInt(hora%10);
+            document.getElementById("celda12").src=numeros[dig_hora1];
+            document.getElementById("celda13").src=numeros[dig_hora2];
+
+            var min=fecha.getMinutes();
+            var dig_min1=parseInt(min/10);
+            var dig_min2=parseInt(min%10);
+            document.getElementById("celda15").src=numeros[dig_min1];
+            document.getElementById("celda16").src=numeros[dig_min2];
+
+            var seconds=fecha.getSeconds();
+            var dig_seconds1=parseInt(seconds/10);
+            var dig_seconds2=parseInt(seconds%10);
+            document.getElementById("celda18").src=numeros[dig_seconds1];
+            document.getElementById("celda19").src=numeros[dig_seconds2];
+            refrescar();
+        }
+        function refrescar(){
+            setTimeout("changeDate()",1000);
+        }
+        
+     </script>
+</head>
+<body onload="changeDate()">
+    
+    <table>
+        <caption>FECHA Y HORA</caption>
+        <tr>
+            <td style="border: dotted 4px yellowgreen;"><img id="celda1"></td>
+            <td style="border: dotted 4px yellowgreen;"><img id="celda2"></td>
+            <td style="border: dotted 4px yellowgreen;"><img id="celda3" src="imgs/barra.jpg"></td>
+            <td style="border: dotted 4px yellowgreen;"><img id="celda4"></td>
+            <td style="border: dotted 4px yellowgreen;"><img id="celda5"></td>
+            <td style="border: dotted 4px yellowgreen;"><img id="celda6" src="imgs/barra.jpg"></td>
+            <td style="border: dotted 4px yellowgreen;"><img id="celda7"></td>
+            <td style="border: dotted 4px yellowgreen;"><img id="celda8"></td>
+            <td style="border: dotted 4px yellowgreen;"><img id="celda9"></td>
+            <td style="border: dotted 4px yellowgreen;"><img id="celda10"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td style="border: dotted 4px yellowgreen;"><img id="celda12"></td>
+            <td style="border: dotted 4px yellowgreen;"><img id="celda13"></td>
+            <td style="border: dotted 4px yellowgreen;"><img id="celda14" src="imgs/puntos.jpg"></td>
+            <td style="border: dotted 4px yellowgreen;"><img id="celda15"></td>
+            <td style="border: dotted 4px yellowgreen;"><img id="celda16"></td>
+            <td style="border: dotted 4px yellowgreen;"><img id="celda17" src="imgs/puntos.jpg"></td>
+            <td style="border: dotted 4px yellowgreen;"><img id="celda18"></td>
+            <td style="border: dotted 4px yellowgreen;"><img id="celda19"></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>

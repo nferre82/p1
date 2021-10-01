@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html> 
+<head> 
+<title>Numeros pares</title> 
+ 
+</head> 
+<body>
+    <h1>Sumatorio Impar</h1> 
+    <script>
+        var nImpreso=0;
+        for(var cont=1, cont2=0;cont<=100;cont++){
+            
+            var copycont=cont;
+            while(copycont>0){
+                nImpreso+=copycont;
+                copycont--;
+            }
+            if(nImpreso>=1000){
+                break;
+            }
+            
+            if(nImpreso%2!=0){
+                document.write(nImpreso+",");
+                cont2++;
+                if(cont2%4==0){
+                document.write("<br>");
+                }
+            } 
+            
+              
+            nImpreso=0;
+        
+        }
+        
+    </script>
+</body> 
+</html> 

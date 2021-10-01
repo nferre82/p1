@@ -1,0 +1,18 @@
+body{
+    color:gray;
+}
+h3+p{
+    color:blue;
+}
+p{
+    color: red;
+}
+h3:nth-of-type(2)~p:not(h3:nth-of-type(3)~p){
+    color: blue;
+}
+span{
+    color: green;
+}
+em{
+    color: yellow;
+}

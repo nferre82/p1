@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Niconne', cursive;
+    src: url('../fuentes/Niconne-Regular.ttf');
+}
+body{
+    display: flex;
+}
+.recuadro1{
+    font-family: 'Niconne', cursive;
+    background-color: lightgrey;
+    border-radius: 15px;
+    color:red;
+    padding: 1%;
+    margin:2%;
+}
+.recuadro2{
+    font-family: 'Barrio', cursive;
+    background-color: lightgrey;
+    border-radius: 15px;
+    color:red;
+    padding: 1%;
+    margin:2%;
+}

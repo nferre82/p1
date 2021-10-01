@@ -1,0 +1,35 @@
+div{
+    
+}
+.bordes{
+    border-top-style: inset;
+    border-top-width: 20px;
+    border-top-color: blue;
+    border-left-color: lime;
+    border-left-style: double;
+    border-left-width: 20px;
+    border-bottom-style: dashed;
+    border-bottom-color: red;
+    border-bottom-width: 5px;
+    border-right-style: solid;
+    border-right-width: 10px;
+    border-right-color: rgba(247, 17, 216, 0.829);
+    background-color: lightcyan;
+}
+.bordes2{
+    border-top: 20px inset blue;
+    border-right: 10px solid rgba(247, 17, 216, 0.829);
+    border-left: 20px double lime;
+    border-bottom: 5px dashed red;
+    background-color: sandybrown;
+}
+.bordes3{
+    border-width: 20px 10px 5px 20px;
+    border-color: blue rgba(247, 17, 216, 0.829) red lime;
+    border-style: inset solid dashed double;
+    background-color: pink;
+}
+.bordes4{
+    border: 6px dotted blue;
+    background-color: yellow;
+}

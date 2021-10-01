@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    text-shadow: -5px -5px 1px #999;
+}
+.caja1{
+    border: 20px solid; 
+    border-image-slice:34%;
+    border-image-source: url(../imagenes/bordes.png);
+    border-image-repeat: stretch;
+    padding: 20px;
+}
+.caja2{
+    border: 20px solid; 
+    border-image-slice:33%;
+    border-image-source: url(../imagenes/bordes.png);
+    border-image-repeat: repeat;
+    padding: 20px;
+}
+
+.caja3{
+    border: 20px solid; 
+    border-image-slice:33.75%;
+    border-image-source: url(../imagenes/bordes.png);
+    border-image-repeat: repeat;
+    padding: 20px;
+}
+div{
+    background-color: lightgray;
+    margin:1%;
+}
+div::first-letter{
+    font-size: 400%;
+}

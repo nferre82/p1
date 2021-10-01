@@ -1,0 +1,24 @@
+h1{
+    color:teal;
+}
+strong, h2+p>a{
+    color:red;
+}
+a{
+    color: green;
+}
+h2, em{
+    color: blue;
+}
+div p{
+    color:olive;
+}
+span{
+    color:green;
+}
+.destacado{
+    color:orange;
+}
+.especial{
+    color: purple;
+}

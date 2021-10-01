@@ -1,0 +1,55 @@
+div{
+    display: inline-flex;
+    flex-wrap: unset;
+    width:170px;
+    height:60px;
+    margin:10px;
+    padding: 30px;
+    background-color: blue;
+}
+img{
+    border: 5px white dashed;
+}
+span{
+    background-color: #2FF;
+}
+body{
+    text-align: center;
+}
+div>img.baseline{
+    text-align: baseline;
+}
+div>img.sub{
+    vertical-align: sub;
+}
+div>img.super+span{
+    vertical-align: super;
+}
+img.top{
+    vertical-align: top;
+}
+div>img.text-top{
+    vertical-align: text-top;
+}
+div>img.middle{
+    vertical-align: middle;
+}
+div>.bottom{
+    vertical-align: bottom;
+}
+div>.text-bottom+span{
+    vertical-align: text-bottom;
+}
+div>img.medida2em{
+    vertical-align: 2em;
+}
+div>img.medida-2em{
+    vertical-align: -2em;
+}
+div>img.porcentaje10{
+    vertical-align: 10%;
+}
+img.porcentaje80{
+    vertical-align:80%;
+    
+}

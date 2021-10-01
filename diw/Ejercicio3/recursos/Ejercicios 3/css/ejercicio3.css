@@ -1,0 +1,12 @@
+h1>span{
+    color:blue;
+}
+p>em{
+    color: green;
+}
+em>span{
+    color: yellow;
+}
+strong>span{
+    color: red;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html> 
+<head> 
+<title>Numeros pares</title> 
+ 
+</head> 
+<body>
+    <h1>Numeros pares entre 1 y 100</h1> 
+    <script>
+        var nImpreso=2;
+        do{
+            for(var cont=1;cont<=25;cont++, nImpreso+=2){
+                document.write(nImpreso+",");
+                if(cont%5==0){
+                    document.write("<br>");
+                }
+            }
+        }while(confirm("Desea continuar?"));
+    </script>
+</body> 
+</html> 

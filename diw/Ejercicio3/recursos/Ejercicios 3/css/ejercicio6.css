@@ -1,0 +1,29 @@
+.recuadro1{
+    color: rgba(240, 52, 52,.4);
+    padding-right: 2%;
+}
+.recuadro2{
+    color: rgba(240, 52, 52,.7);
+    padding-right: 2%;
+}
+.recuadro3{
+    color: rgba(240, 52, 52,1);
+    padding-right: 2%;
+}
+.recuadro4{
+    background-color: rgba(0,220,184,1);
+    padding-left: 0.2%;
+    padding-right: 2%;
+    size: 25%;
+    border-radius: 0.2cm;
+    color: rgba(240, 52, 52,1);
+}
+.recuadro5{
+        background-color: rgba(0,220,184,.2);
+        padding-left: 0.2%;
+        padding-right: 2%;
+        size: 25%;
+        border-radius: 0.2cm;
+        color: rgba(240, 52, 52,.2);
+    
+}
