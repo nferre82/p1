@@ -1,0 +1,33 @@
+.container{
+display: flex; 
+width: 80%;
+height: 75px;
+padding:10px;
+justify-content: space-between;
+background-color: black;
+}
+div:not(.container){
+    background-color:lightgray;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    }
+    .caja1{
+        width: 5%;
+        order: 3;
+    }
+    .caja2{
+        width: 5%;
+        order: 1;
+    }
+    .caja3{
+        width: 5%;
+        order: 4;
+    }
+    .caja4{
+        width: 10%;
+        order: 2;
+    }
+    
+    

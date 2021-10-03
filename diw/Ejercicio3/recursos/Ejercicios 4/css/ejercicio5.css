@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    margin-bottom: 5%;
+}
+h1>span{
+    font-size: 1.5em;
+    color: red;
+    text-decoration: underline;
+}
+span:not(.normal){
+    font-size: 2em;
+    padding: 20px;
+    border:black thick solid;
+    font-weight: bold;
+}
+div{
+    position: relative;
+    background-color: lightblue;
+    padding: 40px;
+    height: 200px;
+    border:black thick solid;
+}
+.caja1{
+    background-color: red;
+}
+.caja2{
+    position: absolute;
+    background-color: blue;
+    top: 90px;
+    left: 150px;
+}
+
+.caja3{
+    background-color: green;
+}
+.caja4{
+    background-color: yellow;
+}

@@ -1,0 +1,24 @@
+.contenedor{
+    text-align: center;
+    position: relative;
+}
+.recuadro1{
+    width: 200px; 
+    margin: 5%px; 
+    padding: 10px;
+    border-radius: 10% 10% 10% 10%;
+    display: inline-block;
+    background-color: rgb(228, 228, 228);
+    text-align: left;
+    box-shadow: 15px 15px 25px -8px gray;
+    }
+.recuadro2{
+   width: 200px; 
+   margin: 5%; 
+   padding: 10px;
+   display: inline-block;
+   background-color: rgb(182, 182, 1);
+   border-radius: 10% 10% 10% 10%;
+   text-align: left;
+   box-shadow: -15px -15px 25px -8px gray;
+}

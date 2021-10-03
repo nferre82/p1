@@ -1,0 +1,42 @@
+div{
+
+    width: 15%;
+    height: 75px;
+    border: black solid thick;
+    font-weight: bold;
+    margin-top: 1%;
+}
+h1{
+    text-align: center;
+}
+h1>span{
+    font-size: 1.5em;
+    color: red;
+    text-decoration: underline;
+}
+.caja1, .caja3{
+    position: relative;
+}
+.caja1{
+    background-color: red;
+}
+.caja2{
+    position: relative;
+    left: 100px;
+    top: -50px;
+    background-color: blue;
+}
+.caja4{
+    position: relative;
+    left: 250px;
+    top: -200px;
+    background-color: skyblue;
+}
+.caja3{
+    background-color: green;
+}
+.caja5{
+    position: relative;
+    right: 50px;
+    background-color: palegreen;
+}

@@ -1,0 +1,36 @@
+.parte1{
+    display: block;
+    padding-top: 10px;
+    background-color: lightgray;
+}
+.parte1>div{
+    background-color: palegreen;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 10px;
+    width:100px;
+    height:60px;
+    text-align: center;
+}
+.inline{
+    background-color: lightgray;
+}
+.inline1, .inline2, .inline3{
+    display: inline;
+    background-color: lightblue;
+}
+.inline_block{
+    background-color: lightgray;
+    height: 50px;
+    text-align:center;
+    
+}
+.iBlock1, .iBlock2, .iBlock3{
+    background-color: violet;
+    display: inline-block;
+    color: white;
+    width: 200px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 2%;
+}

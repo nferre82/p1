@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+h1>span{
+    font-size: 1.5em;
+    color: red;
+    text-decoration: underline;
+}
+span:not(.normal), p, div{
+    color: white;
+    font-weight: bold;
+    border: black solid thick;
+}
+p{
+    background-color: red;
+}
+div{
+    background-color: green;
+    margin: 20px 20px 0 0;
+}
+p,div{
+    width: 25%;
+    height: 75px;
+}
+span:not(.normal){
+    background-color: blue;
+    margin-right: 20px;
+}

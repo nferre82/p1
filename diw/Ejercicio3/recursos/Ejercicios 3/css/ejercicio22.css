@@ -1,0 +1,13 @@
+div{
+    margin: 5% auto;
+}
+.recuadro1{
+    width: 200px; 
+    margin: 5%px; 
+    padding: 10px;
+    border-radius: 10% 10% 10% 10%;
+    background-color: rgb(228, 228, 228);
+    text-align: left;
+    box-shadow: 15px 15px 25px -8px gray;
+    box-shadow: 30px 30px 15px lime, -30px -30px 15px red;
+}
